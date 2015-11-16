@@ -1,5 +1,8 @@
 This repository contains the problems, test data, and sample solutions for the
-2015 Rocky Mountain Regional Contest.  The authors of the solutions are:
+2015 Rocky Mountain Regional Contest.  The data is organized according to
+the Kattis problem package format.
+
+The authors of the solutions are:
 
 - Darko Aleksic
 - Per Austrin

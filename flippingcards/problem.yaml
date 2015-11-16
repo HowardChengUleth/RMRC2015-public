@@ -1,0 +1,13 @@
+source: 2015 Rocky Mountain Regional Contest
+name: Card Game
+author: Zachary Friggstad
+source_url: http://org.coloradomesa.edu/~wmacevoy/rmrc/2015/index.html
+license: cc by-sa
+#libraries: gmp
+#languages: c cpp java python2 python3
+
+# python solution a bit slow, so we will adjust multiplier
+limits:
+   time_multiplier: 2
+
+

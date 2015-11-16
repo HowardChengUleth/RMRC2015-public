@@ -1,0 +1,31 @@
+\problemname{The Magical 3}
+
+\setlength{\columnsep}{15pt}
+\illustration{0.3}{three.jpg}
+
+% https://pixabay.com/en/three-3-number-design-collection-706895/
+% CC0 public domain
+
+There's no doubt about it, three is a magical number. Two's company,
+but three's a crowd, no one ever talks about 2 blind mice, and there
+are three members in an ACM ICPC team.
+
+Even more magically, almost all integers can be represented as a
+number that ends in 3 in some numeric base, sometimes in more than one
+way.  Consider the number 11, which is represented as 13 in base 8 and
+23 in base 4.  For this problem, you will find the smallest base for a
+given number so that the number's representation in that base ends in
+3.
+
+\section*{Input}
+
+Each line of the input contains one nonnegative integer $n$.  The
+value $n = 0$ represents the end of the input and should not be
+processed.  All input integers are less than $2^{31}$.  There are no more
+than $1\,000$ nonzero values of $n$.
+
+\section*{Output}
+
+For each nonzero value of $n$ in the input, print on a single line the
+smallest base for which the number has a representation that ends in 3.
+If there is no such base, print instead ``\verb|No such base|''.

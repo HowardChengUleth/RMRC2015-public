@@ -1,0 +1,45 @@
+\problemname{Space Junk}
+
+
+\setlength{\columnsep}{15pt}
+\illustration{0.25}{junk.png}
+
+% https://openclipart.org/detail/16813/satellite
+% public domain
+
+
+According to NASA's web page, there are more than $500\,000$ pieces of
+``space junk'' that are tracked.  Care must be taken in mission
+planning so satellites and other spacecrafts do not collide with
+these pieces of space junk.
+
+For this problem, we will consider the simplified case in which both
+the spacecraft and the space junk can be modelled as spheres that are
+travelling in a straight line.  Given the current locations of the two
+spheres as well as their velocities, when would they collide in the
+future, if ever?
+
+\section*{Input}
+The first line of input contains a single positive integer $T \leq
+500$ indicating the number of test cases.  Each test case is specified
+by two lines.  The first line specifies the sphere representing the
+spacecraft, while the second line specifies the sphere representing
+the space junk.  Each sphere is specified by the seven integers $ x,
+y, z, r, v_x, v_y, v_z$.  The center of the sphere is currently
+located at $(x,y,z)$, the radius of the sphere is $r$, and the sphere
+is travelling along the direction specified by the vector $(v_x,v_y,
+v_z)$.  If the vector is $(0,0,0)$, the sphere is stationary.
+
+The absolute value of all integers are at most 100, and $r$ is
+positive.  All coordinates and radius are measured in meters, and the
+velocities are measured in meters/second.  
+
+You may assume that the two spheres do not touch each other initially.
+
+\section*{Output}
+
+For each test case, output a line containing the time (in seconds) at
+which the spacecraft first collides with the space junk.  If they
+never collide, print \verb|No collision| instead.  Answers within 0.01
+of the correct result are acceptable.
+

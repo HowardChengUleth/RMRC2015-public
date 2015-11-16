@@ -1,0 +1,12 @@
+source: 2015 Rocky Mountain Regional Contest
+name: Rubik's Revenge in ... 2D!? 3D?
+author: Darko Aleksic
+source_url: http://org.coloradomesa.edu/~wmacevoy/rmrc/2015/index.html
+license: cc by-sa
+#libraries: gmp
+#languages: c cpp java python2 python3
+
+# default limits too high
+limits:
+  time_multiplier: 3.5
+

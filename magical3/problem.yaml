@@ -1,0 +1,13 @@
+source: 2015 Rocky Mountain Regional Contest
+name: The Magical 3
+rights_owner: 2015 Southeast USA Regional Contest
+source_url: http://org.coloradomesa.edu/~wmacevoy/rmrc/2015/index.html
+license: cc by-sa
+#libraries: gmp
+#languages: c cpp java python2 python3
+
+# default limits seem too generous
+limits:
+   time_multiplier: 4
+
+
